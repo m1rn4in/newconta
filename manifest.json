@@ -1,0 +1,55 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.14",
+    "version": "2.0.0",
+    "id": "18f39eca-e0f4-4acc-9d63-1daae1fc5c7e",
+    "packageName": "com.teams.sample.teamsconversationbot",
+    "developer": {
+      "name": "Inetum Peru",
+      "websiteUrl": "https://www.inetum.com/es",
+      "privacyUrl": "https://www.teams.com/privacy",
+      "termsOfUseUrl": "https://www.teams.com/termsofuser"
+    },
+    "icons": {
+      "outline": "icon-outline.png",
+      "color": "icon-color.png"
+    },
+    "name": {
+      "short": "ContaBot",
+      "full": "CierreContableBot"
+    },
+    "description": {
+      "short": "ContaBot",
+      "full": "CierreContableBot es un asistente virtual que ayuda a los cierres contables de fin de mes del cliente Pacifico Seguros"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+      {
+        "botId": "18f39eca-e0f4-4acc-9d63-1daae1fc5c7e",
+        "scopes": [
+          "personal",
+          "groupchat",
+          "team"
+        ],
+        "isNotificationOnly": false,
+        "supportsCalling": false,
+        "supportsVideo": false,
+        "supportsFiles": true,
+          "commandLists": [
+          {
+            "scopes": [
+              "personal",
+              "groupchat",
+              "team"
+            ],
+            "commands": []
+          }
+        ]
+      }
+    ],
+    "permissions": [
+      "identity",
+      "messageTeamMembers"
+    ],
+    "validDomains": ["<<DOMAIN-NAME>>"]
+  }

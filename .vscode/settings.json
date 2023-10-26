@@ -1,0 +1,14 @@
+{
+    "python.analysis.extraPaths": [
+        "./BotPacifico"
+    ],
+    "editor.find.autoFindInSelection": "never",
+    "editor.definitionLinkOpensInPeek": false,
+    "javascript.preferGoToSourceDefinition": true,
+    "typescript.preferGoToSourceDefinition": true,
+    "editor.multiCursorModifier": "alt",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
+}
